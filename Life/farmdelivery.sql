@@ -114,8 +114,8 @@ CREATE TABLE `user` (
 -- ----------------------------
 -- Records of user
 -- ----------------------------
-INSERT INTO `user` VALUES ('1', 'jruiz.jc@gmail.com', 'jarucor', 'Jorge', 'Ruiz', 'Android Developer', '1');
-INSERT INTO `user` VALUES ('2', 'celiapafi@gmail.com', 'ceroca', 'Celia', 'Palacios', 'Senior Developer', '1');
-INSERT INTO `user` VALUES ('3', 'arupa@gmail.com', 'qwerty', 'Alley Benjamin', 'Ruiz Palacios', 'Project Manager', '0');
-INSERT INTO `user` VALUES ('4', 'cruizp@gmail.com', '12345', 'Camila', 'Ruiz', 'job', '0');
-INSERT INTO `user` VALUES ('5', 'ppf@gmail.com', 'pa', 'pablo', 'Palacios', 'markeing', '0');
+INSERT INTO `user` VALUES ('1', 'abcdef@gmail.com', 'jarucor', 'Jorge', 'Ruiz', 'Android Developer', '1');
+INSERT INTO `user` VALUES ('2', 'asjkhdjkash@gmail.com', 'ceroca', 'Celia', 'Palacios', 'Senior Developer', '1');
+INSERT INTO `user` VALUES ('3', 'kaskhkasd@gmail.com', 'qwerty', 'Alley Benjamin', 'Ruiz Palacios', 'Project Manager', '0');
+INSERT INTO `user` VALUES ('4', 'pppppp@gmail.com', '12345', 'Camila', 'Ruiz', 'job', '0');
+INSERT INTO `user` VALUES ('5', 'ppfkksj@gmail.com', 'pa', 'pablo', 'Palacios', 'markeing', '0');
