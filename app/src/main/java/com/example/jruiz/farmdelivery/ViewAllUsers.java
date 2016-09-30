@@ -10,7 +10,7 @@ import android.widget.AdapterView;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
-import android.widget.Toast;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -61,7 +61,7 @@ public class ViewAllUsers extends AppCompatActivity implements ListView.OnItemCl
         }
 
         ListAdapter adapter = new SimpleAdapter(
-                ViewAllUsers.this, list, R.layout.list_item,
+                ViewAllUsers.this, list, R.layout.list_user,
                 new String[]{Config.TAG_EMAIL,Config.TAG_NAME},
                 new int[]{R.id.Email, R.id.Name});
 

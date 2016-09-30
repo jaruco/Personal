@@ -12,4 +12,15 @@
     tools:context="com.example.jruiz.farmdelivery.NewSubscription"
     tools:showIn="@layout/activity_new_subscription">
 
+    <Spinner
+        android:id="@+id/select_spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/select_array" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listItems" />
+
 </RelativeLayout>
